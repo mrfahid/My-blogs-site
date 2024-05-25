@@ -19,7 +19,7 @@ const Login = () => {
       await logIn(emailRef.current.value, passwordRef.current.value);
       navigate("/");
     } catch (err) {
-      setError("Failed to log in");
+      setError("If you new first sign up");
       console.error(err); // Log the actual error
     }
 
