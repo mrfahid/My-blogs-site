@@ -41,7 +41,7 @@ const Login = () => {
       </div>
       <div className="right-col">
         <form onSubmit={handleSubmit}>
-          {error && <p>{error}</p>}
+          {error && <p className="error">{error}</p>}
 
           <div>
             <label>
